@@ -1,0 +1,70 @@
+baseurl = ""
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Welcome to Shin's Homepage"
+  metaDescription = ""
+  keywords = "homepage, science, MMF, UofT, Tianyu"
+  images = [""]
+
+  homeSubtitle = "Adventurer • Guitarist "
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+[languages]
+  [languages.en]
+    title = "Tianyu S. Ren"
+    subtitle = "A boring guy"
+    keywords = "Shin Ren"
+    copyright = "Tianyu S. Ren"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "$ cd /home/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+    # Social icons
+  
+    [[params.social]]
+      name = "email"
+      url  = "mailto:tianyu.ren@mail.utoronto.ca"
+
+    [[params.social]]
+      name = "github"
+      url  = "https://github.com/shin2suka"
+
+    [[params.social]]
+      name = "linkedin"
+      url  = "https://www.linkedin.com/in/tianyu-shin-ren/"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "About"
+    name       = "About"
+    url        = "about"
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Résumé"
+    url        = "/pdf/resume.pdf"
+  [[menu.main]]
+    identifier = "Projects"
+    name       = "Projects"
+    url        = "/projects"
+  [[menu.main]]
+    identifier = "Posts"
+    name       = "Posts"
+    url        = "/tags/posts"
