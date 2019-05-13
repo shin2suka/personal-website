@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "http://shin2suka.github.io"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
