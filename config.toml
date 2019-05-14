@@ -24,7 +24,7 @@ theme = "hello-friend-ng"
 [languages]
   [languages.en]
     title = "Tianyu S. Ren"
-    subtitle = "A boring guy"
+    subtitle = "A Boring Guy"
     keywords = "Shin Ren"
     copyright = "Tianyu S. Ren"
     readOtherPosts = "Read other posts"
