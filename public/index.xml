@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tianyu S. Ren</title>
+    <link>http://shin2suka.github.io/</link>
+    <description>Recent content on Tianyu S. Ren</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Tianyu S. Ren</copyright>
+    <lastBuildDate>Sat, 11 May 2019 14:49:27 -0700</lastBuildDate>
+    
+	<atom:link href="http://shin2suka.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://shin2suka.github.io/posts/my-first-post/</link>
+      <pubDate>Sat, 11 May 2019 14:49:27 -0700</pubDate>
+      
+      <guid>http://shin2suka.github.io/posts/my-first-post/</guid>
+      <description>This is a new version of my website.
+Built in Vancouver, by a boring guy</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://shin2suka.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://shin2suka.github.io/about/</guid>
+      <description>.timeline { position: relative; width: 660px; margin: 0 auto; margin-top: 20px; padding: 1em 0; list-style-type: none; } .timeline:before { position: absolute; left: 50%; top: 0; content: &#39; &#39;; display: block; width: 6px; height: 100%; margin-left: -3px; background: rgb(80,80,80); background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1))); background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%); background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%); background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%); background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%); z-index: 5; } .</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Projects</title>
+      <link>http://shin2suka.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://shin2suka.github.io/projects/</guid>
+      <description>h4 { margin-left: 20px; color: #1abc9c; } .project a.main-nav-item { text-decoration: none; } .project a.main-nav-item:hover { color: #1abc9c; text-decoration: none; }   Markov Chain Monte Carlo(MCMC)  Implemented several sampling methods such as rejection sampling, importance sampling, Metropolis-Hastings sampling methods.
+ Python code  Report   Naïve Bayes, Logistic Regression, Gaussian Mixtures on MNIST  Fitted both generative and discriminative models to the MNIST dataset of handwritten numbers.</description>
+    </item>
+    
+  </channel>
+</rss>
