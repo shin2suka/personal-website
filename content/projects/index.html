@@ -5,7 +5,6 @@ title: Machine Learning Projects
 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 <style>
 	.project{
-		width: 100%;
 		padding-top: 15px;
         padding-bottom: 15px;
 	}
@@ -21,12 +20,32 @@ title: Machine Learning Projects
 		text-decoration: none;
 	}
 	.title {
-		display: inline-block
+		display: table;
 	}
 	.fa-file-alt,
 	h4 {
-		display:table-cell;
-    	vertical-align:middle;
+		display: table-cell;
+  		vertical-align: top;
+	}
+	.fa-terminal,
+	p {
+		margin-left: 40px;
+		word-wrap: break-word;
+	}
+	.main-nav-item {
+		display: inline-block;
+	}
+	.fa-terminal {
+		color:#999
+	}
+	.fa-file {
+		margin-left: 45px;
+		color:#999
+	}
+	@media only screen and (max-width: 568px) {
+		.fa-file {
+			margin-left: 10px;	
+		}
 	}
 </style>
 
@@ -37,19 +56,17 @@ title: Machine Learning Projects
 	</div>
 	<p> To be updated...</p>
 </div>
-
 <br>
-
 <div class="project">
 	<div class="title">
-		<i class='fas fa-file-alt' style='font-size:24px;display:table-cell;vertical-align:middle;'></i>
-		<h4 style="display:table-cell;vertical-align:middle;" >Markov Chain Monte Carlo(MCMC)</h4>
+		<i class='fas fa-file-alt' style='font-size:24px;'></i>
+		<h4>Markov Chain Monte Carlo(MCMC)</h4>
 	</div>
 	<p> Implemented several sampling methods such as rejection sampling, importance sampling, Metropolis-Hastings sampling methods.</p>
-	<i class='fas fa-terminal' style='color:#999'></i>
-	<a class="main-nav-item" href="https://github.com/shin2suka/Statistical-Learning-STA414/tree/master/sampling" style="display: inline-block">Python code</a>
-	<i class='far fa-file' style='margin-left: 45px;color:#999'></i>
-	<a class="main-nav-item" href="/pdf/STA414_HW3.pdf" style="display: inline-block">Report</a>
+	<i class='fas fa-terminal'></i>
+	<a class="main-nav-item" href="https://github.com/shin2suka/Statistical-Learning-STA414/tree/master/sampling">Python code</a>
+	<i class='far fa-file'></i>
+	<a class="main-nav-item" href="/pdf/STA414_HW3.pdf">Report</a>
 </div>
 <br>
 <div class="project">
@@ -58,10 +75,10 @@ title: Machine Learning Projects
 		<h4>Naïve Bayes, Logistic Regression, Gaussian Mixtures on MNIST</h4>
 	</div>
 	<p> Fitted both generative and discriminative models to the MNIST dataset of handwritten numbers. Implementation has been vectorized.</p>
-	<i class='fas fa-terminal' style='color:#999'></i>
-	<a class="main-nav-item" href="https://github.com/shin2suka/Statistical-Learning-STA414/tree/master/naive%20bayes:logistic%20regression:gaussian%20mixtures" style="display: inline-block">Python code</a>
-	<i class='far fa-file' style='margin-left: 45px;color:#999'></i>
-	<a class="main-nav-item" href="/pdf/STA414_HW2.pdf" style="display: inline-block">Report</a> 
+	<i class='fas fa-terminal'></i>
+	<a class="main-nav-item" href="https://github.com/shin2suka/Statistical-Learning-STA414/tree/master/naive%20bayes:logistic%20regression:gaussian%20mixtures">Python code</a>
+	<i class='far fa-file'></i>
+	<a class="main-nav-item" href="/pdf/STA414_HW2.pdf">Report</a> 
 </div>
 <br>
 <div class="project">
@@ -70,8 +87,8 @@ title: Machine Learning Projects
 		<h4>Cross Validation</h4>
 	</div>
 	<p> K-fold cross validation procedure to tune the penalty parameter λ in Ridge regression.</p>
-	<i class='fas fa-terminal' style='color:#999'></i>
-	<a class="main-nav-item" href="https://github.com/shin2suka/Statistical-Learning-STA414/tree/master/cross%20validation" style="display: inline-block">Python code</a>
+	<i class='fas fa-terminal'></i>
+	<a class="main-nav-item" href="https://github.com/shin2suka/Statistical-Learning-STA414/tree/master/cross%20validation">Python code</a>
 </div>
 <br>
 <div class="project">
@@ -80,8 +97,8 @@ title: Machine Learning Projects
 		<h4>Image Completion using Mixture of Bernoullis</h4>
 	</div>
 	<p>Implemented a probabilistic model which we can apply to the task of image completion. Basically, we observe the top half of an image of a handwritten digit, and we’d like to predict what’s in the bottom half.</p>
-	<i class='fas fa-terminal' style='color:#999'></i>
-	<a class="main-nav-item" href="https://github.com/shin2suka/Machine-Learning-CSC411/tree/master/Mixture%20of%20Bernoullis" style="display: inline-block">Python code</a> 
+	<i class='fas fa-terminal'></i>
+	<a class="main-nav-item" href="https://github.com/shin2suka/Machine-Learning-CSC411/tree/master/Mixture%20of%20Bernoullis">Python code</a> 
 </div>
 <br>
 <div class="project">
@@ -94,8 +111,8 @@ title: Machine Learning Projects
 	and the pixel values are between 0 and 1. The labels y are 0, 1, 2, · · · , 9 corresponding to
 	which character was written in the image. There are 700 training cases and 400 test cases for
 	each digit.</p>
-	<i class='fas fa-terminal' style='color:#999'></i>
-	<a class="main-nav-item" href="https://github.com/shin2suka/Machine-Learning-CSC411/tree/master/GDA" style="display: inline-block">Python code</a>
+	<i class='fas fa-terminal'></i>
+	<a class="main-nav-item" href="https://github.com/shin2suka/Machine-Learning-CSC411/tree/master/GDA">Python code</a>
 </div>
 <br>
 <div class="project">
@@ -104,8 +121,8 @@ title: Machine Learning Projects
 		<h4>Locally Weighted Regression on Boston Housing Dataset</h4>
 	</div>
 	<p>Worked with the Boston Housing dataset. This dataset contains 506 entries. Each entry consists of a house price and 13 features for houses within the Boston area.</p>
-	<i class='fas fa-terminal' style='color:#999'></i>
-	<a class="main-nav-item" href="https://github.com/shin2suka/Machine-Learning-CSC411/tree/master/Locally%20Weighted%20Regression" style="display: inline-block">Python code</a>
+	<i class='fas fa-terminal'></i>
+	<a class="main-nav-item" href="https://github.com/shin2suka/Machine-Learning-CSC411/tree/master/Locally%20Weighted%20Regression">Python code</a>
 </div>
 <br>
 <div class="project">
@@ -114,7 +131,7 @@ title: Machine Learning Projects
 		<h4>Decision Tree Classifier to Classify Real vs Fake News Headlines</h4>
 	</div>
 	<p>Used a dataset of 1298 “fake news” headlines (which mostly include headlines of articles classified as biased, etc.) and 1968 “real” news headlines, where the “fake news” headlines are from https://www.kaggle.com/mrisdal/fake-news/data and “real news” headlines are from https://www.kaggle.com/therohk/million-headlines. The data were cleaned by removing words from fake news titles that are not a part of the headline, removing special characters from the headlines, and restricting real new headlines to those after October 2016 containing the word “trump”.</p>
-	<i class='fas fa-terminal' style='color:#999'></i>
-	<a class="main-nav-item" href="https://github.com/shin2suka/Machine-Learning-CSC411/tree/master/Decision%20Tree" style="display: inline-block">Python code</a>
+	<i class='fas fa-terminal'></i>
+	<a class="main-nav-item" href="https://github.com/shin2suka/Machine-Learning-CSC411/tree/master/Decision%20Tree">Python code</a>
 </div>
 <br>
