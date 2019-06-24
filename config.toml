@@ -9,9 +9,9 @@ theme = "hello-friend-ng"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Welcome to Shin's Homepage"
-  metaDescription = "Welcome to Shin's Homepage"
-  keywords = "homepage, science, MMF, UofT, Tianyu, TianyuRen"
+  description = "Tianyu (Shin) Ren"
+  metaDescription = "Tianyu S. Ren"
+  keywords = "TianyuRen, MMF, UofT, Tianyu, Tianyu Ren, Shin Ren"
   images = [""]
 
   homeSubtitle = "Adventurer • Guitarist "
