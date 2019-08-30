@@ -14,7 +14,7 @@ theme = "hello-friend-ng"
   keywords = "TianyuRen, MMF, UofT, Tianyu, Tianyu Ren, Shin Ren, 任天宇"
   images = [""]
 
-  homeSubtitle = "Adventurer • Guitarist "
+  homeSubtitle = "MMF Candidate • U of T"
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
@@ -24,7 +24,7 @@ theme = "hello-friend-ng"
 [languages]
   [languages.en]
     title = "Tianyu S. Ren"
-    subtitle = "A Boring Guy"
+    subtitle = " :D"
     keywords = "Shin Ren"
     copyright = "Tianyu S. Ren"
     readOtherPosts = "Read other posts"
