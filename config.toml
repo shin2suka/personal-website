@@ -24,9 +24,8 @@ theme = "hello-friend-ng"
 [languages]
   [languages.en]
     title = "Tianyu S. Ren"
-    subtitle = " :D"
     keywords = "Shin Ren"
-    copyright = "Tianyu S. Ren"
+    copyright = "Tianyu (Shin) Ren"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
@@ -57,18 +56,9 @@ theme = "hello-friend-ng"
     name       = "About"
     url        = "about"
   [[menu.main]]
-    identifier = "resume"
-    name       = "Résumé"
-    url        = "/pdf/TianyuRenResume.pdf"
-  [[menu.main]]
     identifier = "Projects"
     name       = "Projects"
-    url        = "/projects"
-  [[menu.main]]
-    identifier = "Posts"
-    name       = "Posts"
-    url        = "/tags/posts"
-  
+    url        = "/projects"  
   [[menu.main]]
     identifier = "Tools"
     name       = "Tools"
