@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tianyu S. Ren</title>
+    <link>http://shin2suka.github.io/</link>
+    <description>Recent content on Tianyu S. Ren</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Tianyu (Shin) Ren</copyright>
+    
+	<atom:link href="http://shin2suka.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>http://shin2suka.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://shin2suka.github.io/about/</guid>
+      <description>function myFunction() { alert(&#34;My chinese name is 任Rén 天Tiān宇yǔ&#34;); }   .container-fluid { padding-top: 70px; padding-bottom: 70px; } .center { padding-top: 70px; display: block; margin-left: auto; margin-right: auto; width: 20%; } .video-responsive{ overflow:hidden; padding-bottom:56.25%; position:relative; height:0; } .video-responsive iframe{ left:0; top:0; height:100%; width:100%; position:absolute; } div.bio { text-indent: 4%; } .fancy-link { transition: color 0.3s linear; -webkit-transition: color 0.3s linear; -moz-transition: color 0.3s linear; } .fancy-link:hover { color: #ed5a65; } #world-map { width: 760px; height: 500px; } @media only screen and (max-width: 768px) { #world-map { width: 563px; height: 300px; } } @media only screen and (max-width: 568px) { #world-map { width: 335px; height: 200px; } } @media only screen and (max-width: 414px) { #world-map { width: 375px; height: 200px; } } @media only screen and (max-width: 375px) { #world-map { width: 335px; height: 200px; } }    Bio: I was &#34;</description>
+    </item>
+    
+    <item>
+      <title>Data Science &amp; Machine Learning</title>
+      <link>http://shin2suka.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://shin2suka.github.io/projects/</guid>
+      <description>.project{ padding-top: 15px; padding-bottom: 15px; } h4 { padding-left: 20px; color: #f0a1a8; } .project a.main-nav-item { text-decoration: none; transition: color 0.3s linear; -webkit-transition: color 0.3s linear; -moz-transition: color 0.3s linear; } .project a.main-nav-item:hover { color: #ed5a65; text-decoration: none; } .main-nav-item { display: inline-block; } .title { display: table; } .fa-file-alt, h4 { display: table-cell; vertical-align: top; } .fa-terminal, p { margin-left: 40px; word-wrap: break-word; } .fa-terminal { color:#999 } .</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>http://shin2suka.github.io/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://shin2suka.github.io/tools/</guid>
+      <description>var Loadquotes= function(){ debugger; var quotes = new Array(&#39;葱爆羊肉\n Stir-Fried Lamb with Leeks&#39;,&#39;杏鲍菇牛肉粒\n Stir-Fried Beef Cubes with Pleurotus Eryngii&#39;,&#39;番茄土豆顿牛腩\n Tomato Potato and Beef Brisket&#39;,&#39;蒜蓉烤金针菇\n Baked Enokitake with Minced Garlic&#39;,&#39;香菇蒸肉饼\n Steamed Pork with Shiitake&#39;,&#39;豉汁排骨\n Steamed Pork Ribs with Black Bean Sauce&#39;,&#39;小炒肉\n Little Fried Pork&#39;,&#34;别问我\n Don&#39;t ask me&#34;,&#34;不知道\n I don&#39;t know&#34;,&#39;别吃了\n Bier Tsi Le&#39;,&#39;咖喱饭\n Curry Rice&#39;,&#39;面条\n Noodles&#39;,&#39;西红柿炒蛋\n Scrambled Egg with Tomato&#39;,&#39;胡萝卜玉米排骨汤\n Carrot Corn and Pork Ribs Soup&#39;,&#39;烤羊排\n Roasted Lamb Chops&#39;,&#34;Don&#39;t eat chicken nuggets&#34;</description>
+    </item>
+    
+  </channel>
+</rss>
